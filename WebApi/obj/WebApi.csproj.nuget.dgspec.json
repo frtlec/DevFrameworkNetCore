@@ -63,6 +63,10 @@
               "target": "Package",
               "version": "[8.5.0, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -139,6 +143,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[8.5.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -344,6 +352,9 @@
             "projectReferences": {
               "C:\\Users\\zafer\\source\\repos\\frtlec\\DevFrameworkNetCore\\Business\\Business.csproj": {
                 "projectPath": "C:\\Users\\zafer\\source\\repos\\frtlec\\DevFrameworkNetCore\\Business\\Business.csproj"
+              },
+              "C:\\Users\\zafer\\source\\repos\\frtlec\\DevFrameworkNetCore\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\zafer\\source\\repos\\frtlec\\DevFrameworkNetCore\\Core\\Core.csproj"
               }
             }
           }

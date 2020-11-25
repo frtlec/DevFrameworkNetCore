@@ -7,6 +7,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Security.Claims;
+using Core.Extensions;
 
 namespace WebApi.Controllers
 {
@@ -22,7 +24,7 @@ namespace WebApi.Controllers
         }
 
         [HttpGet("getall")]
-        [Authorize(Roles ="Product.List")]
+        //[Authorize(Roles ="Product.List")]
         public IActionResult GetList()
         {
             var result = _productService.GetList();
@@ -83,7 +85,16 @@ namespace WebApi.Controllers
             }
             return BadRequest(result.Message);
         }
-
+        [HttpPost("transaction")]
+        public IActionResult TransactionTest(Product product)
+        {
+            var result = _productService.TransactionalOperation(product);
+            if (result.Success)
+            {
+                return Ok(result.Message);
+            }
+            return BadRequest(result.Message);
+        }
 
     }
 }

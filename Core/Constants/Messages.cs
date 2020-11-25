@@ -22,5 +22,6 @@ namespace Core.Constants
         public static string UserAlreadyExists= "Bu kullanıcı zaten kayıtlı.";
         public static string UserRegistered="Kullanıcı başarıyla kayıt edildi";
         public static string AccessTokenCreated="Access Token Başarıyla oluşturuldu";
+        public static string AuthorizationDenied = "Yetkiniz yok!";
     }
 }
