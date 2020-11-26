@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zafer\\source\\repos\\frtlec\\DevFrameworkNetCore\\Core\\Core.csproj": {}
+    "C:\\Users\\Zafer.Kirik\\Source\\Repos\\frtlec\\DevFrameworkNetCore\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zafer\\source\\repos\\frtlec\\DevFrameworkNetCore\\Core\\Core.csproj": {
+    "C:\\Users\\Zafer.Kirik\\Source\\Repos\\frtlec\\DevFrameworkNetCore\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zafer\\source\\repos\\frtlec\\DevFrameworkNetCore\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Zafer.Kirik\\Source\\Repos\\frtlec\\DevFrameworkNetCore\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\zafer\\source\\repos\\frtlec\\DevFrameworkNetCore\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zafer\\source\\repos\\frtlec\\DevFrameworkNetCore\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Zafer.Kirik\\Source\\Repos\\frtlec\\DevFrameworkNetCore\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Zafer.Kirik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zafer.Kirik\\Source\\Repos\\frtlec\\DevFrameworkNetCore\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zafer.Kirik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +29,6 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -38,7 +40,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
@@ -78,6 +79,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.8.0, )"
@@ -85,6 +90,10 @@
             "System.Security.Claims": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
             }
           },
           "imports": [
@@ -97,7 +106,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

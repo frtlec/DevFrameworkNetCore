@@ -18,5 +18,15 @@ namespace Core.Extensions
         {
             return claimsPrincipal?.Claims(ClaimTypes.Role);
         }
+        public static string ClaimUserName(this ClaimsPrincipal claimsPrincipal)
+        {
+
+            return claimsPrincipal != null ?
+                        claimsPrincipal.Claims(ClaimTypes.Name).Count() > 0 ?
+
+                         claimsPrincipal.Claims(ClaimTypes.Name).First()
+                        : ""
+                    :"";
+        }
     }
 }

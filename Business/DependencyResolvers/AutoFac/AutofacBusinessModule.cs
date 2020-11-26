@@ -34,15 +34,11 @@ namespace Business.DependencyResolvers.AutoFac
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
-
-
             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()
-                    .EnableInterfaceInterceptors(
-                                   new ProxyGenerationOptions()
-                                   {
-                                       Selector=new AspectInterceptorSelector()
-
-                                   }).SingleInstance();
+                .EnableInterfaceInterceptors(new ProxyGenerationOptions()
+                {
+                    Selector = new AspectInterceptorSelector()
+                }).SingleInstance();
         }
     }
 }

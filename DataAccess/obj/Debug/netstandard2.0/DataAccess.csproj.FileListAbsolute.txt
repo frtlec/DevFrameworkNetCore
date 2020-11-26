@@ -12,3 +12,17 @@ C:\Users\zafer\source\repos\frtlec\DevFrameworkNetCore\DataAccess\obj\Debug\nets
 C:\Users\zafer\source\repos\frtlec\DevFrameworkNetCore\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\zafer\source\repos\frtlec\DevFrameworkNetCore\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\zafer\source\repos\frtlec\DevFrameworkNetCore\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Zafer.Kirik\Source\Repos\frtlec\DevFrameworkNetCore\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
