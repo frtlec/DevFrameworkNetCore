@@ -16,6 +16,10 @@ namespace Core.Constants
         public static string CategoryDeleted = "Kategori başarıyla silindi.";
         public static string CategoryUpdated = "Kategori başarıyla güncellendi.";
 
+        public static string SecurityKeyError = "Güvenlik anahtarı çözülemiyor.";
+        public static string ClientKeyError = "Client key hatalı";
+
+
         public static string UserNotFound = "Kullanıcı bulunamadı.";
         public static string PasswordError = "Şifre hatalı";
         public static string successfulLogin = "Giriş başarılı";
